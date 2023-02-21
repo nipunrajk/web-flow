@@ -11,6 +11,16 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!--  -->
+
+    <!--  -->
     <link rel="stylesheet" href="./components/style.css" />
     <link rel="stylesheet" href="./style/navbar.css" />
     <link rel="stylesheet" href="./style/footer.css" />
@@ -19,213 +29,269 @@
     <link rel="stylesheet" href="./style/single-product-blur.css" />
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
   </head>
-  <body class="blur">
-    <!-- navbar -->
-    <div id="nav-placeholder"></div>
-
-    <!-- section 1 -->
-    <section class="bg-navbar pt-4 header-container" style="height: 389px">
-      <p class="header-title">My Store</p>
-      <!-- bottom border -->
-      <div class="header-desc_container">
-        <p class="section-desc text-center" style="color: #b4c7e7">
-          There are many variations of passages of Lorem Ipsum available, have
-          suffered alteration in some form.
-        </p>
-      </div>
-    </section>
-
-    <!-- section 2 -->
-    <section class="section-padding">
-      <div class="container">
-        <div class="row">
-          <div class="col-6">
-            <img src="./assets/single_product/Image.png" alt="" />
-          </div>
-          <div class="col-6">
-            <p class="section-title single-product_title">The Atomic One’s</p>
-            <p class="single-product_price_bold">
-              $30.<small class="">00 USD</small>
-            </p>
-            <p class="single-product_desc">
-              <!-- change text font -->
-              Making this the first true generator on the Internet. It uses a
-              dictionary of over 200 Latin words, combined with a handful of
-              model sentence structures, to generate Lorem Ipsum which looks
-              reasonable. The generated Lorem Ipsum.
-            </p>
-            <!--  -->
-            <div class="single-product_desc singlepage_content-pair">
-              <div class="row single-product_desc singlepage_content-pair">
-                <div class="col-4">
-                  <p>Publisher :</p>
-                </div>
-                <div class="col-8">
-                  <p>Learning Private Limited (1 January 2021)</p>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-4">
-                  <p>Language :</p>
-                </div>
-                <div class="col-8">
-                  <p>English</p>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-4">
-                  <p>Paperback :</p>
-                </div>
-                <div class="col-8">
-                  <p>212 pages</p>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-4">
-                  <p>ISBN-10:</p>
-                </div>
-                <div class="col-8">
-                  <p>9788120345799</p>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-4">
-                  <p>Dimensions :</p>
-                </div>
-                <div class="col-8">
-                  <p>20 x 14 x 4 cm</p>
-                </div>
-              </div>
-            </div>
-
-            <!--  -->
-            <!--  -->
-            <div class="row">
-              <div class="col-2 me-4">
-                <input class="books-input" type="number" class="form-control" />
-              </div>
-              <div class="col-4">
-                <button class="btn btn-custom btn-nav books-btn">
-                  <img src="./assets/icons/cart-Vector.png" alt="cart icon" />
-                  Add to Cart
-                </button>
-              </div>
-            </div>
-            <!--  -->
-          </div>
+  <body>
+    <!--  -->
+    <div class="modal-container">
+      <div class="card" style="width: 799px">
+        <div class="position-relative">
+          <h5 class="card-title section-title overlay-card_title p-3">
+            Your cart
+            <img
+              class="cross-icon"
+              src="./assets/blur/Vector.png"
+              alt=""
+              width="20"
+              height="20"
+            />
+          </h5>
         </div>
-        <div class="book-subcontent_container mt-5">
-          <!-- bottom row -->
+
+        <div class="card-body">
           <div class="row">
-            <!-- first -->
-            <div
-              class="col-6 d-flex flex-column justify-content-end align-items-end"
-            >
-              <button
-                class="btn bg-navbar text-white books-subcontent-btn btn-nav my-5"
-              >
-                PRODUCT DESCRIPTION
-              </button>
-
-              <p class="section-title books-subcontent_title">
-                Do you offer discounts for education?
-              </p>
-              <p class="section-desc">
-                There are many variations of passages of Lorem Ipsum available,
-                but the majority have suffered alteration in some form, bypassed
-                injected humour, or randomised words which don't look even
-                slightly believable.
-              </p>
+            <div class="col-6 d-flex align-items-center">
+              <img src="./assets/blur/Book.png" alt="" class="me-3" />
+              <div class="ms-3">
+                <p class="section-title overlay-cardbody_title">Atomic One's</p>
+                <p class="overlay-cardbody_subtitle">$30.00 USD</p>
+                <p class="section-subtitle">Remove</p>
+              </div>
             </div>
-            <!-- second -->
-            <div
-              class="col-6 d-flex flex-column justify-content-start align-items-start"
-            >
-              <button
-                class="btn books-subcontent-btn books-subcontent-btn2 btn-nav my-5"
-              >
-                ADDITIONAL INFO
-              </button>
-              <p class="section-title books-subcontent_title">
-                Is this book for me?
-              </p>
-              <p class="section-desc">
-                If you are going to use a passage of Lorem Ipsum, you need to be
-                sure there isn't anything embarrassing hidden in the middle of
-                text. All the Lorem Ipsum generators on the Internet tend to
-                repeat predefined chunks as necessary.
-              </p>
+            <div class="offset-3 col-2">
+              <div class="input-group">
+                <input type="number" class="form-control" value="1" disabled />
+              </div>
             </div>
+          </div>
+        </div>
+        <div class="card-footer">
+          <div class="row d-flex justify-content-center">
+            <div class="d-flex justify-content-between">
+              <p class="section-subtitle card-footer_text">Sub-total</p>
+              <p class="card-footer_price">$60.00 USD</p>
+            </div>
+            <a href="#" class="btn btn-custom btn-nav btn-overlay"
+              >Continue to Checkout</a
+            >
           </div>
         </div>
       </div>
-    </section>
+    </div>
 
-    <section style="background-color: #ffca42">
-      <div class="row">
-        <div class="col-4">
-          <div class="feature-container">
-            <div
-              class="feature-square d-flex justify-content-center align-items-center"
-            >
-              <img src="./assets/feature/Icon.svg" alt="" />
-            </div>
-            <p class="feature-item_title section-title pt-4">Secure Payments</p>
-            <div class="feature-item-desc_container">
-              <p class="feature-item-desc section-desc">
-                There are many variations of passages of alteration in some
-                form.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-4">
-          <div class="feature-container">
-            <div
-              class="feature-square d-flex justify-content-center align-items-center"
-            >
-              <img src="./assets/feature/Icon2.svg" alt="" />
-            </div>
-            <p class="feature-item_title section-title pt-4">Free Shipping</p>
-            <div class="feature-item-desc_container">
-              <p class="feature-item-desc section-desc">
-                There are many variations of passages of alteration in some
-                form.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-4">
-          <div class="feature-container">
-            <div
-              class="feature-square d-flex justify-content-center align-items-center"
-            >
-              <img src="./assets/feature/Icon3.svg" alt="" />
-            </div>
-            <p class="feature-item_title section-title pt-4">
-              100% Satisfactions
-            </p>
-            <div class="feature-item-desc_container">
-              <p class="feature-item-desc section-desc">
-                There are many variations of passages of alteration in some
-                form.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- navbar -->
-    <div id="footer-placeholder"></div>
+    <!--  -->
+    <div class="overlay">
+      <!-- navbar -->
+      <div id="nav-placeholder"></div>
 
-    <!-- scripts -->
-    <script>
-      $(function () {
-        $('#nav-placeholder').load('./components/navbar.html')
-      })
-      $(function () {
-        $('#footer-placeholder').load('./components/footer.html')
-      })
-    </script>
+      <!-- section 1 -->
+      <section class="bg-navbar pt-4 header-container" style="height: 389px">
+        <p class="header-title">My Store</p>
+        <!-- bottom border -->
+        <div class="header-desc_container">
+          <p class="section-desc text-center" style="color: #b4c7e7">
+            There are many variations of passages of Lorem Ipsum available, have
+            suffered alteration in some form.
+          </p>
+        </div>
+      </section>
+
+      <!-- section 2 -->
+      <section class="section-padding">
+        <div class="container">
+          <div class="row">
+            <div class="col-6">
+              <img src="./assets/single_product/Image.png" alt="" />
+            </div>
+            <div class="col-6">
+              <p class="section-title single-product_title">The Atomic One’s</p>
+              <p class="single-product_price_bold">
+                $30.<small class="">00 USD</small>
+              </p>
+              <p class="single-product_desc">
+                <!-- change text font -->
+                Making this the first true generator on the Internet. It uses a
+                dictionary of over 200 Latin words, combined with a handful of
+                model sentence structures, to generate Lorem Ipsum which looks
+                reasonable. The generated Lorem Ipsum.
+              </p>
+              <!--  -->
+              <div class="single-product_desc singlepage_content-pair">
+                <div class="row single-product_desc singlepage_content-pair">
+                  <div class="col-4">
+                    <p>Publisher :</p>
+                  </div>
+                  <div class="col-8">
+                    <p>Learning Private Limited (1 January 2021)</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-4">
+                    <p>Language :</p>
+                  </div>
+                  <div class="col-8">
+                    <p>English</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-4">
+                    <p>Paperback :</p>
+                  </div>
+                  <div class="col-8">
+                    <p>212 pages</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-4">
+                    <p>ISBN-10:</p>
+                  </div>
+                  <div class="col-8">
+                    <p>9788120345799</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-4">
+                    <p>Dimensions :</p>
+                  </div>
+                  <div class="col-8">
+                    <p>20 x 14 x 4 cm</p>
+                  </div>
+                </div>
+              </div>
+
+              <!--  -->
+              <!--  -->
+              <div class="row">
+                <div class="col-2 me-4">
+                  <input
+                    class="books-input"
+                    type="number"
+                    class="form-control"
+                  />
+                </div>
+                <div class="col-4">
+                  <button class="btn btn-custom btn-nav books-btn">
+                    <img src="./assets/icons/cart-Vector.png" alt="cart icon" />
+                    Add to Cart
+                  </button>
+                </div>
+              </div>
+              <!--  -->
+            </div>
+          </div>
+          <div class="book-subcontent_container mt-5">
+            <!-- bottom row -->
+            <div class="row">
+              <!-- first -->
+              <div
+                class="col-6 d-flex flex-column justify-content-end align-items-end"
+              >
+                <button
+                  class="btn bg-navbar text-white books-subcontent-btn btn-nav my-5"
+                >
+                  PRODUCT DESCRIPTION
+                </button>
+
+                <p class="section-title books-subcontent_title">
+                  Do you offer discounts for education?
+                </p>
+                <p class="section-desc">
+                  There are many variations of passages of Lorem Ipsum
+                  available, but the majority have suffered alteration in some
+                  form, bypassed injected humour, or randomised words which
+                  don't look even slightly believable.
+                </p>
+              </div>
+              <!-- second -->
+              <div
+                class="col-6 d-flex flex-column justify-content-start align-items-start"
+              >
+                <button
+                  class="btn books-subcontent-btn books-subcontent-btn2 btn-nav my-5"
+                >
+                  ADDITIONAL INFO
+                </button>
+                <p class="section-title books-subcontent_title">
+                  Is this book for me?
+                </p>
+                <p class="section-desc">
+                  If you are going to use a passage of Lorem Ipsum, you need to
+                  be sure there isn't anything embarrassing hidden in the middle
+                  of text. All the Lorem Ipsum generators on the Internet tend
+                  to repeat predefined chunks as necessary.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section style="background-color: #ffca42">
+        <div class="row">
+          <div class="col-4">
+            <div class="feature-container">
+              <div
+                class="feature-square d-flex justify-content-center align-items-center"
+              >
+                <img src="./assets/feature/Icon.svg" alt="" />
+              </div>
+              <p class="feature-item_title section-title pt-4">
+                Secure Payments
+              </p>
+              <div class="feature-item-desc_container">
+                <p class="feature-item-desc section-desc">
+                  There are many variations of passages of alteration in some
+                  form.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="feature-container">
+              <div
+                class="feature-square d-flex justify-content-center align-items-center"
+              >
+                <img src="./assets/feature/Icon2.svg" alt="" />
+              </div>
+              <p class="feature-item_title section-title pt-4">Free Shipping</p>
+              <div class="feature-item-desc_container">
+                <p class="feature-item-desc section-desc">
+                  There are many variations of passages of alteration in some
+                  form.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="feature-container">
+              <div
+                class="feature-square d-flex justify-content-center align-items-center"
+              >
+                <img src="./assets/feature/Icon3.svg" alt="" />
+              </div>
+              <p class="feature-item_title section-title pt-4">
+                100% Satisfactions
+              </p>
+              <div class="feature-item-desc_container">
+                <p class="feature-item-desc section-desc">
+                  There are many variations of passages of alteration in some
+                  form.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- navbar -->
+      <div id="footer-placeholder"></div>
+
+      <!-- scripts -->
+      <script>
+        $(function () {
+          $('#nav-placeholder').load('./components/navbar.html')
+        })
+        $(function () {
+          $('#footer-placeholder').load('./components/footer.html')
+        })
+      </script>
+    </div>
   </body>
 </html>
