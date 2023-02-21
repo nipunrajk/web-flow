@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cardo:wght@700&display=swap');
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.text-navbar__logo {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 125%;
+}
+.nav-item {
+  display: flex;
+  align-items: center;
+}
+
+.arrow {
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.nav-item .arrow {
+  position: relative;
+  top: 50%;
+  margin-left: 5px;
+  transform: translateY(-50%) rotate(45deg);
+  -webkit-transform: translateY(-50%) rotate(45deg);
+}
+
+.nav-item .down {
+  margin-top: 2px;
+}
+
+.navbar-dark .navbar-nav .nav-link,
+.navbar-dark .navbar-nav .nav-link:focus,
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #f6f8fc;
+}
+
+/*  */
+.nav-item img {
+  vertical-align: middle;
+}
+
+.nav-item .btn {
+  line-height: normal;
+}
+.btn {
+  border-radius: 0;
+}
+/* 
+.btn-nav {
+  font-family: 'Cardo', serif;
+  font-size: 19px;
+  width: 180px;
+  height: 50px;
+} */
+
+/* drop down  */
+.dropdown-toggle::after {
+  border-top: 0;
+}

@@ -1,0 +1,22 @@
+.session-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.changelog-container {
+  width: 600px;
+  height: 250px;
+  background-color: #f3f3f3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.changelog-icon {
+  border-radius: 50%;
+  width: 90%;
+  height: 90%;
+}

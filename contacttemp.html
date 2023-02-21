@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./components/style.css" />
+    <link rel="stylesheet" href="./style/navbar.css" />
+    <link rel="stylesheet" href="./style/footer.css" />
+    <!-- contact Style -->
+    <link rel="stylesheet" href="./style/contact.css" />
+    <link rel="stylesheet" href="./book.css" />
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  </head>
+  <body>
+    <!-- navbar -->
+    <div id="nav-placeholder"></div>
+
+    <!-- section 1 -->
+    <section class="bg-navbar pt-4 header-container" style="height: 389px">
+      <p class="header-title">Contact Us</p>
+      <span class="title__border contact-title_border"></span>
+      <!-- bottom border -->
+      <div class="header-desc_container">
+        <p class="section-desc text-center" style="color: #b4c7e7">
+          There are many variations of passages of Lorem Ipsum available, have
+          suffered alteration in some form.
+        </p>
+      </div>
+    </section>
+
+    <!-- section 2 -->
+    <section class="section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-5">
+            <p class="section-title mt-5">Keep in Touch</p>
+            <span class="title__border contact-subtitle_border"></span>
+            <p class="section-desc pt-4">
+              There are many variations of passages of Lorem Ipsum available,
+              but the majority have suffered alteration in some form, by
+              injected humour, or randomised words which don't look even
+              slightly believable.
+            </p>
+            <!--  -->
+            <div class="contact-list_container">
+              <ul>
+                <li
+                  style="
+                    list-style-image: url('./assets/contact/Icon1.png');
+                    position: relative;
+                  "
+                  class="mb-2"
+                >
+                  <div class="contact-list_text-1">
+                    <span class="section-title info-title m-0">Visit Us:</span>
+                    <p class="section-desc m-0">
+                      No: 09a, Downtown, San Diego, USA.
+                    </p>
+                  </div>
+                </li>
+                <li
+                  style="
+                    list-style-image: url('./assets/contact/Icon2.png');
+                    position: relative;
+                  "
+                  class="mb-2"
+                >
+                  <div class="contact-list_text-2">
+                    <p class="section-title info-title m-0">Drop Us:</p>
+                    <p class="section-desc m-0">support@pages.com</p>
+                  </div>
+                </li>
+                <li
+                  style="
+                    list-style-image: url('./assets/contact/Icon3.png');
+                    position: relative;
+                  "
+                  class="mb-2"
+                >
+                  <div class="contact-list_text-3">
+                    <p class="section-title info-title m-0">Visit Us:</p>
+                    <p class="section-desc m-0">
+                      No: 09a, Downtown, San Diego, USA.
+                    </p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+
+            <!--  -->
+          </div>
+          <div class="offset-1 col-6">
+            <!--  -->
+            <div class="form-container">
+              <form class="mt-5">
+                <div class="row">
+                  <!-- name -->
+                  <div class="col">
+                    <div class="input-group mb-3">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text"
+                          ><img
+                            src="./assets/contact/user.png"
+                            alt="Image"
+                            class="bg"
+                        /></span>
+                      </div>
+                      <input
+                        type="text"
+                        class="form-control"
+                        placeholder="Name"
+                        style="border-left: 0"
+                      />
+                    </div>
+                  </div>
+                  <!-- email -->
+                  <div class="col">
+                    <div class="input-group mb-3">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text"
+                          ><img
+                            src="./assets/contact/mail.png"
+                            alt="Image"
+                            class="bg"
+                        /></span>
+                      </div>
+                      <input
+                        type="text"
+                        class="form-control"
+                        placeholder="Email"
+                        style="border-left: 0"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <!-- phone -->
+                  <div class="col mt-4">
+                    <div class="input-group mb-3">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text"
+                          ><img
+                            src="./assets/contact/phone.png"
+                            alt="Image"
+                            class="bg"
+                        /></span>
+                      </div>
+                      <input
+                        type="text"
+                        class="form-control"
+                        placeholder="email"
+                        style="border-left: 0"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col mt-4">
+                   <div class="position-relative">
+  <textarea
+    class="form-control icon-textarea_container"
+    style="height: 225px;"
+    placeholder="Message"
+  ></textarea>
+  <span class="position-absolute image-textarea_container mt-2 ms-2">
+    <img src="./assets/contact/edit.png" alt="Image icon" height="24" width="24">
+  </span>
+</div>
+
+                  </div>
+                </div>
+                <div class="form-check my-4">
+                  <input
+                    class="form-check-input me-2"
+                    type="checkbox"
+                    value=""
+                   
+                    checked
+                  />
+                  <label class="form-check-label" >
+                    Keep me up to date with news and offers from time to time by
+                    email
+                  </label>
+                </div>
+                <button class="btn btn-custom btn-nav contact-form-btn">
+                  Send Message
+                </button>
+              </form>
+
+              <!--  -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-padding faq-section">
+      
+      <!-- <div class="container"> -->
+        <!--  -->
+<div class="v1_1348">
+      <div class="v1_1349">
+        <div class="name"></div>
+        <div class="text-center">
+
+          <span class="v1_1351 ">Frequent Questions?</span>
+          <span class="title__border"></span>
+        </div>
+      </div>
+      <div class="v1_1352 mt-0">
+        <div class="v1_1353">
+          <div class="v1_1354">
+            <div class="name"></div>
+            <span class="v1_1356">Do you offer discounts for education? </span>
+            <div class="v1_1357"></div>
+          </div>
+          <div class="v1_1358">
+            <div class="name"></div>
+            <span class="v1_1360"
+              >There are many variations of of Lorem Ipsum available.</span
+            ><span class="v1_1361 pt-4"
+              >Many desktop publishing packages and web page editors to now use
+              Lorem Ipsum as their default model text, and angle uncover many
+              web sites still in their infancy.</span
+            ><span class="v1_1362"
+              >Is Hack Producivity book available on the one stores?</span
+            >
+            <div class="v1_1363"></div>
+          </div>
+          <div class="v1_1364">
+            <div class="name"></div>
+            <span class="v1_1366">What is Hack Productivity book about?</span>
+            <div class="v1_1367"></div>
+          </div>
+          <div class="v1_1368">
+            <div class="name"></div>
+            <span class="v1_1370"
+              >Where can I get Hack Productivity book?
+            </span>
+            <div class="v1_1371"></div>
+          </div>
+          <div class="v1_1372">
+            <div class="name"></div>
+            <span class="v1_1374">Do you offer discounts for education? </span>
+            <div class="v1_1375"></div>
+          </div>
+        </div>
+        <div class="v1_1376">
+          <div class="v1_1377">
+            <div class="name"></div>
+            <span class="v1_1379">Do you offer discounts for education? </span>
+            <div class="v1_1380"></div>
+          </div>
+          <div class="v1_1381">
+            <div class="name"></div>
+            <span class="v1_1383"
+              >Is Hack Producivity book available on the one stores?</span
+            >
+            <div class="v1_1384"></div>
+          </div>
+          <div class="v1_1385">
+            <div class="name"></div>
+            <span class="v1_1387">What is Hack Productivity book about?</span>
+            <div class="v1_1388"></div>
+          </div>
+          <div class="v1_1389">
+            <div class="name"></div>
+            <span class="v1_1391">What is Hack Productivity book about?</span>
+            <div class="v1_1392"></div>
+          </div>
+          <div class="v1_1393">
+            <div class="name"></div>
+            <span class="v1_1395"
+              >Where can I get Hack Productivity book?
+            </span>
+            <div class="v1_1396"></div>
+          </div>
+          <div class="v1_1397">
+            <div class="name"></div>
+            <span class="v1_1399"
+              >Where can I get Hack Productivity book?
+            </span>
+            <div class="v1_1400"></div>
+          </div>
+          <div class="v1_1401">
+            <span class="v1_1402"
+              >Where can I get Hack Productivity book?
+            </span>
+            <div class="v1_1403"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+        <!--  -->
+      <!-- </div> -->
+    </section>
+
+    <!-- navbar -->
+    <div id="footer-placeholder"></div>
+
+    <!-- scripts -->
+    <script>
+      $(function () {
+        $('#nav-placeholder').load('./components/navbar.html')
+      })
+      $(function () {
+        $('#footer-placeholder').load('./components/footer.html')
+      })
+    </script>
+  </body>
+</html>

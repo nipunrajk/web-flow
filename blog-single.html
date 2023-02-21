@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+   <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="./components/style.css" />
+    <link rel="stylesheet" href="./style/navbar.css">
+    <link rel="stylesheet" href="./style/footer.css"/>
+    <!-- blog single Style -->
+    <link rel="stylesheet" href="./style/blog-single.css" />
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  </head>
+  <body>
+
+   <!-- navbar -->
+    <div id="nav-placeholder"></div>
+
+       <!-- section 1 -->
+    <section class="bg-navbar pt-4 header-container" style="height: 389px">
+      <div class="banner-container">
+        <p class="header-title text-center">Significant reading has more info number</p>
+            <span class="title__border banner-title_border"></span>
+      </div>
+      <!-- bottom border -->
+      <div class="header-desc_container">
+      </div>
+    </section>
+
+    <!-- section 2 -->
+    <section class="section-padding">
+      <div class="container">
+        <div class="card blog-card border-0">
+          <img src="./assets/single-blog/Image (1).png" alt="blog-image">
+          <div class="card-body">
+            <p class="blog-date section-title pb-3">October 6, 2021 / Classics</p>
+            <p class="section-desc_regular pb-2">There are many variations of passages of Lorem Ipsum available, but the majorithave suffered alteration in some form, by injected humour, or randomised words whicdon't look even slightly believable. If you are going to use a passage of Lorem Ipsum, need to be sure there isn't anything embarrassing hidden in the middle of text. All thLorem Ipsum generators on the Internet tend.</p>
+            <p class="section-title blog-title py-3">The perfect book for all</p>
+            <p class="section-desc">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has less normal distribution of letters, as opposed.</p>
+            <!--  -->
+            <ul class="mt-2 mb-5">
+              <li class="blog-bulletin blog-bulletin_text">It has roots in a piece of classical Latin literature from 45 BC,</li>
+              <li class="blog-bulletin blog-bulletin_text">To generate Lorem Ipsum which looks reasonable</li>
+              <li class="blog-bulletin blog-bulletin_text">The first line of Lorem Ipsum, "Lorem ipsum” dolor sit amet</li>
+            </ul>
+            <!--  -->
+            <div class="quotes">
+              <img class="quotes-icon" src="./assets/single-blog/quoteicon.png" alt="quote icon">
+              <p class="quote-title text-center">“Crowdsource term sheet freemium beta stealth responsive web design niche market rock star channels.”</p>
+            </div>
+
+            <p class="section-title blog-title mt-5 pb-3">The perfect book for all</p>
+            <p class="section-desc">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has less normal distribution of letters, as opposed.</p>
+
+            <!--  -->
+            <ol class="points section-desc mt-3">
+                <li  >It has roots in a piece of classical Latin literature from 45 BC,</li>
+                <li>To generate Lorem Ipsum which looks reasonable</li>
+                <li>The first line of Lorem Ipsum, "Lorem ipsum” dolor sit amet</li>
+                <li>Be standard chunk of Lorem used since the 1500s</li>
+            </ol>
+            <!--  -->
+          </div>
+        </div>
+      </div>
+    </section>
+       <!-- navbar -->
+    <div id="footer-placeholder"></div>
+
+
+
+
+       <!-- scripts -->
+    <script>
+      $(function () {
+        $('#nav-placeholder').load('./components/navbar.html')
+      })
+      $(function () {
+        $('#footer-placeholder').load('./components/footer.html')
+      })
+    </script>
+  </body>
+  </body>
+</html>

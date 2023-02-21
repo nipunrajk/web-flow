@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+.about-session_bg {
+  background-color: #f6f8fc;
+  /* background-color: blue; */
+  height: 1400px;
+}
+
+.about-session_container {
+  position: relative;
+  top: 10%;
+}
+
+.about-card {
+  width: 1300px;
+  height: 1130px;
+}
+
+.about-detailcard {
+  width: 519px;
+  height: 350px;
+  background-color: white;
+}
+
+.about-detailcard {
+  position: relative;
+  top: 7%;
+  left: 0%;
+}
+
+.about-detailcard_container {
+  position: relative;
+  top: 14%;
+  left: 8%;
+}
+
+.about-title_col {
+  width: 607px;
+  height: 335px;
+  position: relative;
+  top: -22%;
+  left: 50%;
+}
+
+.btn-about {
+  font-family: 'Cardo', serif;
+  font-size: 19px;
+  line-height: 23.75px;
+  width: 240px;
+  height: 65px;
+}
+
+.about-detailcard_key {
+  font-size: 24px;
+  line-height: 52px;
+}
+
+.about-detailcard_value {
+  font-style: regular;
+}
+
+/* section 3 */
+.history_container {
+  height: 820px;
+}
+
+.history-content {
+  width: 559px;
+  height: 212px;
+}
+
+/*  */
+.timeline {
+  display: flex;
+  flex-direction: column;
+  width: 554px;
+  height: 394px;
+}
+
+.timeline-item {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+  position: relative;
+}
+
+.timeline-item:before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 25px;
+  height: 100%;
+  border-left: 2px dotted #000000;
+}
+
+.timeline-box {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  background-color: #ffca42;
+  margin-right: 20px;
+}
+
+.timeline-box:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-top: 25px solid transparent;
+  border-bottom: 25px solid transparent;
+  border-right: 25px solid #ffca42;
+}
+
+.timeline-content h3 {
+  margin: 0;
+}
+
+.timeline-content p {
+  margin: 10px 0 0 0;
+}
+
+/* section 4 */
+.books-section_bg {
+  background-color: #f5f8fc;
+}

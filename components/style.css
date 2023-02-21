@@ -1,0 +1,116 @@
+/* This box class is purely used for explaining how the bootstrap grid system works. */
+.box {
+  background-color: lightblue;
+  border: 1px solid blue;
+  min-height: 50px;
+  font-size: 2rem;
+}
+
+body {
+  overflow-x: hidden;
+}
+/*  */
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+/* inter regular */
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+.bg-navbar {
+  background-color: #1b3764;
+}
+
+.bg-section__secondary {
+  background-color: #f4f8ff;
+}
+.text-bg {
+  color: #f6f8fc;
+}
+
+/* common */
+.btn-custom {
+  background-color: #ffca42;
+}
+.section-padding {
+  /* padding: 80px 0; */
+  padding: 80px 0 80px 0;
+}
+
+.section-title {
+  font-family: 'Cardo', serif;
+  color: #1b3764;
+  font-size: 45px;
+  line-height: 54px;
+}
+
+.section-subtitle {
+  font-family: 'Cardo', serif;
+  font-weight: 400;
+  font-size: 32px;
+  color: #1b3764;
+}
+
+.section-desc {
+  font-family: 'Inter', sans-serif;
+  color: #969aa0;
+  font-weight: 400;
+  line-height: 34.2px;
+  font-size: 19px;
+}
+
+/* may be come global */
+.section-desc_regular {
+  font-family: 'Inter', sans-serif;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 34.2px;
+  color: #969aa0;
+}
+
+/* .section-desc_regular {
+  font-family: 'Inter', sans-serif;
+  color: #969aa0;
+  font-weight: normal;
+  line-height: 34.2px;
+  font-size: 19px;
+} */
+
+.header-title {
+  font-family: 'Cardo', serif;
+  font-size: 50px;
+  line-height: 55px;
+  color: #fff;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-desc_container {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  width: 647px;
+  height: 179px;
+}
+
+.btn-nav {
+  font-family: 'Cardo', serif;
+  font-size: 19px;
+  width: 180px;
+  height: 50px;
+}
+
+/* bottom border  */
+.title__border {
+  border-bottom: 2px solid #ffca42;
+  width: 5%;
+  display: inline-block;
+  position: relative;
+}
+
+.banner-title_border {
+  width: 13%;
+}

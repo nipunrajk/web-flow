@@ -1,0 +1,26 @@
+.section-bg_img {
+  background-image: url('../assets/404/Background\ Image.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 1124px;
+}
+.session-centering {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* this class may cause naming collision */
+.session-container {
+  width: 589px;
+  height: 520.96px;
+}
+
+.centering-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}

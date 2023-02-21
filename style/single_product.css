@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap');
+/* single-product_desc */
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+.single-product_title {
+  font-size: 32px;
+  line-height: 38.4px;
+}
+
+.single-product_price_bold {
+  font-family: 'Inter', sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 34px;
+  color: #ffca42;
+}
+
+/* may be come global */
+.single-product_desc {
+  font-family: 'Inter', sans-serif;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 34.2px;
+  color: #969aa0;
+}
+
+.singlepage_content-pair {
+  line-height: 47.5px;
+}
+.books-input {
+  width: 120px;
+  height: 65px;
+  border: 1px solid #ffca42;
+}
+
+.books-btn {
+  width: 377.45px;
+  height: 65px;
+}
+
+.book-subcontent_container {
+  padding: 40px 0;
+}
+
+.books-subcontent-btn {
+  width: 315px;
+  height: 65px;
+}
+
+.books-subcontent-btn2 {
+  border: 1px solid #e8ecf2;
+  background-color: #f5f8fc;
+  color: #1b3764;
+}
+
+.books-subcontent_container {
+  width: 571px;
+  height: 173px;
+}
+
+.books-subcontent_title {
+  font-size: 32px;
+  line-height: 38.4px;
+}
+.feature-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 85px 0;
+}
+
+.feature-square {
+  width: 80px;
+  height: 80px;
+  background-color: #1b3764;
+}
+
+.feature-item_title {
+  font-size: 32px;
+  line-height: 38.4px;
+}
+
+.feature-item-desc_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.feature-item-desc {
+  text-align: center;
+  width: 365px;
+  height: 68px;
+  color: #1b3764;
+}

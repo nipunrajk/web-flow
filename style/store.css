@@ -1,0 +1,62 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+.author-book_card {
+  width: 401px;
+  height: 774px;
+}
+
+.card-img {
+  height: 500px;
+}
+
+.bookcard-title {
+  font-size: 32px;
+  line-height: 38.4px;
+}
+.bookcard-price {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 39.6pxs;
+  color: #ffca42;
+}
+
+.bookcard-desc {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 32.2px;
+  color: #969aa0;
+}
+
+/*  */
+ul.card-list {
+  padding-left: 1.5em;
+}
+
+/* may be global */
+.bullet-point {
+  margin-bottom: 0;
+  font-size: 24px;
+  line-height: 28.8px;
+}
+
+/* may be global */
+.bullet-point::before {
+  content: '\2022'; /* Unicode character for a bullet point */
+  margin-right: 0.5rem;
+  font-size: 3rem;
+  color: #ffca42;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 1.5rem; /* set line-height to match the font-size of the text */
+}
+
+.bookcard-btn {
+  background: 0 0;
+  border-color: #ffd600;
+  color: #1b3764;
+  width: 220px;
+  height: 65px;
+}

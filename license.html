@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="./components/style.css" />
+    <link rel="stylesheet" href="./style/navbar.css" />
+    <link rel="stylesheet" href="./style/footer.css" />
+    <!-- article Style -->
+    <link rel="stylesheet" href="./style/license.css" />
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  </head>
+  <body>
+    <!-- navbar -->
+    <div id="nav-placeholder"></div>
+
+    <!-- section 1 -->
+    <section class="bg-navbar pt-4 header-container">
+      <div class="text-center">
+        <p class="header-title text-center">Licenses</p>
+        <span class="title__border license-title_border"></span>
+      </div>
+      <!-- bottom border -->
+      <div class="header-desc_container">
+        <p class="section-desc text-center text-center" style="color: #b4c7e7">
+          There are many variations of passages of Lorem Ipsum available, have
+          suffered alteration in some form.
+        </p>
+      </div>
+    </section>
+
+    <section class="section-padding">
+      <div class="license-container">
+        <p class="section-title license-title_text">Photography</p>
+        <p class="license-desc_text">
+          All images used in the <span class="special">Pages</span> Webflow
+          Template are licensed for free personal and commercial use. If you'd
+          like to use any specific image, you can check the licenses and
+          download the images for free on
+          <span class="special">Unsplash, Pexels.</span>
+        </p>
+        <div class="inter-padding">
+          <p class="section-title license-subtitle_text">Pexels:</p>
+          <p class="license-desc_text">
+            Image 1, Image 2, Image 3, Image 4, Image 5, Image 6, Image 7, Image
+            8
+          </p>
+        </div>
+        <div class="inter-padding">
+          <p class="section-title license-subtitle_text">Unsplash:</p>
+          <p class="license-desc_text">Image 1, Image 2, Image 3</p>
+        </div>
+        <p class="section-title license-title_text">Fonts</p>
+        <p class="license-desc_text">
+          Pages template uses free licensed
+          <span class="special">Google Fonts.</span> Please check
+          <span class="special">Cardo</span> and
+          <span class="special">Inter.</span>
+        </p>
+      </div>
+    </section>
+
+    <section></section>
+    <!-- navbar -->
+    <div id="footer-placeholder"></div>
+    <!-- scripts -->
+    <script>
+      $(function () {
+        $('#nav-placeholder').load('./components/navbar.html')
+      })
+      $(function () {
+        $('#footer-placeholder').load('./components/footer.html')
+      })
+    </script>
+  </body>
+</html>

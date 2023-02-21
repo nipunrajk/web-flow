@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+/* quote icon */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+.banner-container {
+  width: 657px;
+  height: 110px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.blog-card {
+  width: 1299px;
+  height: 1698px;
+}
+
+.blog-date {
+  font-size: 24px;
+  line-height: 52px;
+}
+.section-desc_regular {
+  font-family: 'Inter', sans-serif;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 34.2px;
+  color: #969aa0;
+}
+
+.blog-title {
+  font-size: 30px;
+  line-height: 42px;
+}
+
+/*  */
+ul {
+  list-style: none;
+}
+
+li.blog-bulletin {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+li.blog-bulletin:before {
+  content: '';
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  background-image: url('../assets/single-blog/Vector.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.blog-bulletin_text {
+  font-family: 'Inter', sans-serif;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 29.35px;
+  color: #1b3764;
+}
+
+/*  */
+.quotes {
+  margin: 0 -15px;
+  height: 138px;
+  background-color: #1b3764;
+}
+
+.quotes-icon {
+  position: relative;
+  left: 2%;
+}
+
+.quote-title {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32.4px;
+  color: #ffffff;
+}
+
+.points {
+  line-height: 29.35px;
+  color: #1b3764;
+}
+
+/* footer */
+/* .footer-session { */
+/* height: 342px; total 510px */
+/* background-color: #1b3764; */
+/* } */
+
+/* .text-footer__logo { */
+/* font-family: 'Inter', sans-serif; */
+/* font-weight: 700; */
+/* font-size: 30px; */
+/* line-height: 37.5px; */
+/* } */
+
+/* ul { */
+/* list-style: none; */
+/* } */
+
+/* li.footer-bulletin { */
+/* display: flex; */
+/* align-items: center; */
+/* margin-bottom: 10px; */
+/* } */
+
+/* li.footer-bulletin:before { */
+/* content: ''; */
+/* display: inline-block; */
+/* width: 20px; */
+/* height: 20px; */
+/* margin-right: 10px; */
+/* background-image: url('../assets/footer/icon\ \(3\).png'); */
+/* background-repeat: no-repeat; */
+/* background-size: contain; */
+/* } */
+
+/* .footer-bulletin_text { */
+/* color: white; */
+/* } */
