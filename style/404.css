@@ -19,8 +19,13 @@
 }
 
 .centering-container {
+  width: 589px;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+}
+
+.btn-404 {
+  width: 220px;
 }

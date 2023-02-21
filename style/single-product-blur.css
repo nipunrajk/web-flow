@@ -1,5 +1,3 @@
 .blur {
-  filter: blur(
-    3px
-  ); /* you can adjust the amount of blur by changing the value */
+  background-color: rgba(255, 0, 0, 0.5);
 }

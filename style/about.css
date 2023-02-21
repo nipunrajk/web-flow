@@ -38,7 +38,7 @@
   width: 607px;
   height: 335px;
   position: relative;
-  top: -22%;
+  top: -24%;
   left: 50%;
 }
 
@@ -69,8 +69,8 @@
   height: 212px;
 }
 
-/*  */
-.timeline {
+/* change needed */
+/* .timeline {
   display: flex;
   flex-direction: column;
   width: 554px;
@@ -119,7 +119,8 @@
 
 .timeline-content p {
   margin: 10px 0 0 0;
-}
+} */
+/*  */
 
 /* section 4 */
 .books-section_bg {

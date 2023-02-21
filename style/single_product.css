@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap');
 /* single-product_desc */
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+.book-content_container {
+  position: relative;
+  top: 4%;
+}
 
 .single-product_title {
   font-size: 32px;
